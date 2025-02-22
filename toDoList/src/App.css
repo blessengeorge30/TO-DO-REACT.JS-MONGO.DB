@@ -1,0 +1,188 @@
+/* General App Styling */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+}
+
+/* Task Box Styling */
+.task-box {
+  background: #242424;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  min-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Title Styling */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #61dafb;
+}
+
+/* Button Wrapper - Holds Add Task & Show All List */
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  width: 300px; /* Fixed width */
+  margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+  flex: 1;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #004a99;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.2);
+}
+
+button:active {
+  transform: scale(1.10);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Task List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  margin-top: 15px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px;
+  background: #1e1e2e;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 96%;
+  box-shadow: 0 4px 8px rgba(0, 122, 255, 0.3);
+  border-left: 5px solid #007bff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 18px;
+}
+
+/* Task Item Hover Effect */
+li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 122, 255, 0.4);
+}
+
+/* Task Button Container */
+.task-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-left: auto;
+}
+
+/* Task Item Buttons */
+li button {
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+li button:hover {
+  background-color: #0056b3;
+  transform: scale(1.4);
+}
+
+/* All Lists Container */
+.all-lists-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  text-align: left;
+  width: 100%;
+  color: white;
+}
+
+/* Individual List Box */
+.list-box {
+  background: #282828;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0, 122, 255, 0.3);
+}
+
+/* List Title */
+.list-box h3 {
+  font-size: 20px;
+  color: #61dafb;
+  margin-bottom: 8px;
+}
+
+/* Completed Task */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
