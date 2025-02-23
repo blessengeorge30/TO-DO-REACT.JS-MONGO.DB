@@ -49,5 +49,15 @@ app.get("/tasks/:listName", async (req, res) => {
   res.json(tasks || { listName, tasks: [] });
 });
 
+// **Updated: Get all task lists with tasks**
+app.get("/tasks", async (req, res) => {
+  try {
+    const allLists = await TaskModel.find({}, "listName tasks");
+    res.json(allLists);
+  } catch (error) {
+    res.status(500).json({ error: "Error fetching all lists" });
+  }
+});
+
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
