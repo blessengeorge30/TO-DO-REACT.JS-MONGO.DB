@@ -64,7 +64,7 @@ input[type="text"]:focus {
   flex-direction: row;
   justify-content: space-between;
   gap: 15px;
-  width: 300px; /* Fixed width */
+  width: 300px; 
   margin-top: 10px;
 }
 
