@@ -32,13 +32,13 @@ const TaskList = ({ tasks, toggleComplete, deleteTask, editTask }) => {
               type="text" 
               value={newText} 
               onChange={(e) => setNewText(e.target.value)}
-              style={{ flex: 1, marginRight: "10px", padding: "11px", fontSize: "16px", marginTop: "13px"}}
+              style={{ flex: 1, marginRight: "10px", padding: "12px", fontSize: "16px", marginTop: "16px"}}
             />
           ) : (
             <span>{task.text}</span>
           )}
 
-          <div style={{ display: "flex", gap: "5px", marginLeft: "auto"}}>
+          <div style={{ display: "flex", gap: "5px", marginLeft: "auto" }}>
             {editingIndex === index ? (
               <button onClick={() => handleSaveClick(index)}>
                 ✅
