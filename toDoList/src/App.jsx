@@ -5,7 +5,7 @@ import TaskList from "./components/TaskList";
 import TaskCard from "./components/TaskCard";
 import "./App.css";
 
-const API_URL = "http://localhost:3000/tasks";
+const API_URL = "http://localhost:3000/tasks"; //localhost
 
 const App = () => {
   const [listName, setListName] = useState("");
@@ -52,7 +52,7 @@ const App = () => {
     saveTasks(newTasks);
   };
 
-  const toggleComplete = (index) => {
+  const toggleComplete = (index) => {   
     const newTasks = [...tasks];
     newTasks[index].completed = !newTasks[index].completed;
     setTasks(newTasks);

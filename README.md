@@ -21,7 +21,6 @@ https://drive.google.com/file/d/1WRnQ9bFbjxtQy_mupMte1d0fVrrJBHvH/view?usp=shari
 - Create, update, and delete tasks efficiently.
 - User authentication for personalized task management.
 - Stores tasks securely using MongoDB.
-- Real-time updates using WebSockets.
 - Responsive UI for a smooth experience across devices.
 
 ## Tech Stack
@@ -31,7 +30,7 @@ Tech Stack
 - Backend: Node.js with Express.js for handling API requests.
 - Database: MongoDB for storing tasks and user data.
 - Axios: For making API calls between the frontend and backend.
-- React Router: For managing navigation within the app.
+
 
 
 
