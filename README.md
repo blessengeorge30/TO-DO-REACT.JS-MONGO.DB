@@ -1,24 +1,8 @@
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Overview
 
-![App Screenshot](./screenshots/Overview.png)
+![App Screenshot](./screenshots/overview.png)
 ![App Screenshot](./screenshots/overview1.png)
 ## Backend Intergration MONGO.DB & Node.Js
 ![App Screenshot](./screenshots/overview2.png)
@@ -26,29 +10,26 @@
 
 ## Introduction
 
-A React Native application designed to provide users with detailed stock information. This project demonstrates the implementation of various features such as data fetching, in-memory caching, and a dark mode toggle to enhance user experience. The app uses the react-native-chart-kit library to display stock data visually
+A React.js to-do list application with a Node.js and MongoDB backend. This project demonstrates the implementation of key features such as task management, user authentication, and real-time updates. The app provides a seamless user experience with an intuitive UI, efficient state management, and a secure backend for data storage.
+
 ## Features
 
-- Fetches real-time stock data from an external API.
-- Displays detailed stock information including charts.
-- Implements in-memory caching to reduce API calls.
-- Dark mode toggle for better user experience.
-- Switch statement for dynamic stock descriptions.
-
-
-
-
-
+- Create, update, and delete tasks efficiently.
+- User authentication for personalized task management.
+- Stores tasks securely using MongoDB.
+- Real-time updates using WebSockets.
+- Responsive UI for a smooth experience across devices.
 
 ## Tech Stack
 
+Tech Stack
+- Frontend: React.js for building the user interface.
+- Backend: Node.js with Express.js for handling API requests.
+- Database: MongoDB for storing tasks and user data.
+- Axios: For making API calls between the frontend and backend.
+- React Router: For managing navigation within the app.
 
 
-
-- React Native: For building the mobile application.
-- react-native-chart-kit: For rendering charts  
-- Axios: For making API calls in the application.
-- React Navigation: For handling navigation within the app.
 
 
 
