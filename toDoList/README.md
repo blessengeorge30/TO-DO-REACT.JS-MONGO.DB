@@ -4,12 +4,6 @@ A React.js to-do list application with a Node.js and MongoDB backend. This proje
 
 🚀 THIS PROJECT WAS PART OF THE ASSIGNMENT GIVEN AS THE FIRST ROUND IN CAPSDATA, COCHIN INFOPARK.
 
-## Overview
-
-![App Screenshot](./screenshots/overview.png)
-![App Screenshot](./screenshots/overview1.png)
-## Backend Intergration MONGO.DB & Node.Js
-![App Screenshot](./screenshots/overview2.png)
 
 ## Application - Overview Video Preview 💻
 https://drive.google.com/file/d/1WRnQ9bFbjxtQy_mupMte1d0fVrrJBHvH/view?usp=sharing

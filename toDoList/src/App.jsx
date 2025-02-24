@@ -5,7 +5,7 @@ import TaskList from "./components/TaskList";
 import TaskCard from "./components/TaskCard";
 import "./App.css";
 
-const API_URL = "http://localhost:3000/tasks"; //localhost
+const API_URL = "http://localhost:3000/tasks"; 
 
 const App = () => {
   const [listName, setListName] = useState("");
