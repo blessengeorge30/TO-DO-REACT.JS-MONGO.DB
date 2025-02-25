@@ -2,7 +2,7 @@
 
 A React.js to-do list application with a Node.js and MongoDB backend. This project demonstrates the implementation of key features such as task management, user authentication, and real-time updates. The app provides a seamless user experience with an intuitive UI, efficient state management, and a secure backend for data storage.
 
-🚀 THIS PROJECT WAS PART OF THE ASSIGNMENT GIVEN AS THE FIRST ROUND IN CAPSDATA, COCHIN INFOPARK.
+THIS PROJECT WAS PART OF THE ASSIGNMENT GIVEN AS THE FIRST ROUND IN CAPSDATA, COCHIN INFOPARK.
 
 ## Overview
 
